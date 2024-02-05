@@ -1,4 +1,4 @@
-with open("define_country.txt", "r") as file: 
+with open("country.txt", "r") as file: 
     lines = file.read().split("\n")
 
     f = open("continent.txt", "w")
